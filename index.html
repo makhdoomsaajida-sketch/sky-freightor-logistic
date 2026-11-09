@@ -103,7 +103,7 @@ h1,h2,h3,h4{font-family:var(--font-h);line-height: 80px; 80px;1.16;letter-spacin
 .lt-top{font-family:var(--font-h);font-weight:900;font-size:1.42rem;letter-spacing:-.2px;color:#101828}
 .lt-top .lt-sky{color:#2ba9e0}
 .lt-sub{font-family:var(--font-h);font-weight:600;font-size:.68rem;letter-spacing:.19em;color:#33415c;margin-top:4px}
-.logo-img{display:block;height: 80px;70px;width:auto;max-width:300px;object-fit:contain}
+..logo-mark{height:80px;width:auto;flex:0 0 auto;display:block}  .logo-text{display:flex;flex-direction:column;line-height:1.05;text-align:left;white-space:nowrap}  ..logo-mark{height:80px;width:auto;flex:0 0 auto;display:block}  .logo-text{display:flex;flex-direction:column;line-height:1.05;text-align:left;white-space:nowrap}  .logo-img{display:block;height:80px;width:auto;max-width:300px;object-fit:contain}{display:block;height:80px;width:auto;max-width:300px;object-fit:contain}{display:block;height: 80px;70px;width:auto;max-width:300px;object-fit:contain}
 
 .nav{margin-left:auto;display:flex;align-items:center;gap:6px}
 .nav a{font-weight:600;font-size:.95rem;color:#dbe6f3;padding:9px 13px;border-radius:8px;position:relative;transition:color .2s}
@@ -1015,7 +1015,7 @@ function applyLogo(src){
   document.querySelectorAll('.logo-slot').forEach(function(slot){
     if(slot.dataset.logoApplied) return;
     slot.dataset.logoApplied = '1';
-    slot.innerHTML = '<img class="logo-img" src="' + src + '" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo">';
+    slot.innerHTML = '<img class=".logo-mark{height:80px;width:auto;flex:0 0 auto;display:block}  .logo-text{display:flex;flex-direction:column;line-height:1.05;text-align:left;white-space:nowrap}  .logo-img{display:block;height:80px;width:auto;max-width:300px;object-fit:contain}" src="' + src + '" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo">';
   });
   var fav = document.querySelector('link[rel="icon"]');
   if(fav) fav.href = src;
