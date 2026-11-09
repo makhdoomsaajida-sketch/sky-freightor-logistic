@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SKYFREIGHTOR LOGESTIC PVT LTD | International Freight Forwarding & Logistics — Karachi, Pakistan</title>
-<meta name="description" content="SKYFREIGHTOR LOGESTIC PVT LTD — international freight forwarding and logistics company in Karachi, Pakistan. Air, sea and road freight, transit cargo, FCL & LCL, customs clearance, warehousing, distribution, import & export and door-to-door delivery worldwide.">
+<meta name="description" content="SKYFREIGHTOR LOGESTIC PVT LTD — international freight forwarding and logistics company in Karachi, Pakistan. Air, sea and road freight, FCL & LCL, customs clearance, warehousing, distribution, import & export and door-to-door delivery worldwide.">
 <meta name="theme-color" content="#0b2447">
 <meta property="og:title" content="SKYFREIGHTOR LOGESTIC PVT LTD — Global Logistics. Smarter Shipping.">
 <meta property="og:description" content="Your trusted logistics partner for efficient freight forwarding, international shipping, cargo handling, and end-to-end supply chain solutions.">
@@ -18,14 +18,15 @@
 
 <!-- ============================================================
      SETUP NOTE (site owner):
-     1) YOUR ORIGINAL LOGO FILE: save it as  logo.png  (or .jpg /
-        .webp) in the SAME folder as this index.html. It is then
-        detected automatically and replaces the built-in brand
-        lockup in the header, mobile menu, footer and favicon —
-        no code edits needed. Different filename? Set LOGO_SRC
-        at the top of the first <script> in the <body>.
+     1) YOUR ORIGINAL LOGO: save your logo file as  logo.png
+        (or logo.jpg / logo.webp) in the SAME folder as this
+        index.html. It is detected automatically and displayed
+        in the header, mobile menu, footer and favicon.
+        Different filename? Set LOGO_SRC at the top of the
+        first <script> in the <body>.
      2) To receive form submissions directly, set FORM_ENDPOINT
         in the main script at the bottom (e.g. Formspree URL).
+        Until then the forms send through Email / WhatsApp.
      3) Replace any service photo by editing its <img src="">.
 ============================================================ -->
 
@@ -37,7 +38,7 @@
   --line:#e3e9f1; --bg:#f5f8fc; --white:#fff;
   --sky:#1d9ad7; --sky-2:#4fb8e8; --orange:#f26b21; --orange-2:#ff8a3d;
   --shadow-1:0 6px 24px rgba(11,36,71,.08); --shadow-2:0 18px 44px rgba(11,36,71,.16);
-  --r:14px; --hh:150px;
+  --r:14px; --hh:158px;
   --font-h:"Archivo",Arial,sans-serif; --font-b:"Public Sans","Segoe UI",Arial,sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -94,16 +95,15 @@ h1,h2,h3,h4{font-family:var(--font-h);line-height:1.16;letter-spacing:-.4px}
 .topbar svg{width:14px;height:14px;color:var(--sky-2)}
 .topbar a:hover{color:#fff}
 .topbar .tb-tag{color:var(--orange-2);font-weight:700;font-family:var(--font-h);letter-spacing:.06em;text-transform:uppercase;font-size:.72rem}
-.navbar .container{display:flex;align-items:center;gap:24px;padding:15px 0}
+.navbar .container{display:flex;align-items:center;gap:26px;padding:15px 0}
 
-/* --- Logo lockup: emblem LEFT of the wordmark (as the original logo) --- */
-.logo-plate{background:#fff;border-radius:10px;padding:8px 14px;flex:0 0 auto;box-shadow:0 4px 16px rgba(0,0,0,.25);display:flex;align-items:center;gap:12px}
-.logo-mark{height:64px;width:auto;flex:0 0 auto;display:block}
-.logo-text{display:flex;flex-direction:column;line-height:1.05;text-align:left;white-space:nowrap}
-.lt-top{font-family:var(--font-h);font-weight:900;font-size:1.42rem;letter-spacing:-.2px;color:#101828}
-.lt-top .lt-sky{color:#2ba9e0}
-.lt-sub{font-family:var(--font-h);font-weight:600;font-size:.68rem;letter-spacing:.19em;color:#33415c;margin-top:4px}
+/* --- Logo (original file) --- */
+.logo-plate{background:#fff;border-radius:10px;padding:8px 14px;flex:0 0 auto;box-shadow:0 4px 16px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;max-width:330px}
 .logo-img{display:block;height:70px;width:auto;max-width:300px;object-fit:contain}
+.logo-text{display:flex;flex-direction:column;line-height:1.12;white-space:nowrap;text-align:left}
+.lt-top{font-family:var(--font-h);font-weight:900;font-size:1.3rem;letter-spacing:-.2px;color:#101828}
+.lt-top .lt-sky{color:#2ba9e0}
+.lt-sub{font-family:var(--font-h);font-weight:600;font-size:.68rem;letter-spacing:.2em;color:#1d2939}
 
 .nav{margin-left:auto;display:flex;align-items:center;gap:6px}
 .nav a{font-weight:600;font-size:.95rem;color:#dbe6f3;padding:9px 13px;border-radius:8px;position:relative;transition:color .2s}
@@ -113,20 +113,18 @@ h1,h2,h3,h4{font-family:var(--font-h);line-height:1.16;letter-spacing:-.4px}
 .nav .btn{margin-left:12px;padding:12px 22px;font-size:.9rem}
 .burger{display:none;margin-left:auto;background:none;border:1px solid rgba(255,255,255,.28);border-radius:9px;width:46px;height:46px;color:#fff;align-items:center;justify-content:center}
 .burger svg{width:22px;height:22px}
-@media(max-width:1330px){.logo-mark{height:54px}.lt-top{font-size:1.2rem}.lt-sub{font-size:.6rem}.nav a{padding:9px 9px}}
+@media(max-width:1320px){.logo-img{height:58px;max-width:252px}.nav a{padding:9px 9px}}
 @media(max-width:1240px){.nav a{font-size:.88rem;padding:8px 8px}.nav .btn{padding:11px 18px;margin-left:8px}}
-@media(max-width:1000px){:root{--hh:132px}.nav{display:none}.burger{display:inline-flex}.topbar .tb-right{display:none}.navbar .container{padding:10px 0}}
-@media(max-width:560px){:root{--hh:84px}.topbar{display:none}.logo-plate{padding:6px 10px;gap:9px}.logo-mark{height:46px}.lt-top{font-size:1.02rem}.lt-sub{font-size:.53rem;letter-spacing:.14em;margin-top:2px}.navbar .container{padding:11px 0}}
-@media(max-width:380px){.logo-mark{height:40px}.lt-top{font-size:.92rem}.lt-sub{font-size:.48rem}}
+@media(max-width:1000px){:root{--hh:136px}.nav{display:none}.burger{display:inline-flex}.topbar .tb-right{display:none}.navbar .container{padding:10px 0}}
+@media(max-width:560px){:root{--hh:84px}.topbar{display:none}.logo-plate{padding:6px 10px}.logo-img{height:46px;max-width:200px}.navbar .container{padding:11px 0}}
+@media(max-width:380px){.logo-img{height:40px;max-width:168px}}
 
 /* Mobile drawer */
 .drawer{position:fixed;inset:0;background:linear-gradient(160deg,#0a1f3e,#081426);z-index:200;transform:translateX(102%);transition:transform .38s cubic-bezier(.7,0,.3,1);display:flex;flex-direction:column;padding:26px 8% 40px;overflow-y:auto}
 .drawer.open{transform:translateX(0)}
 .drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px}
 .drawer .logo-plate{margin-right:auto}
-.drawer .logo-mark{height:50px}
-.drawer .lt-top{font-size:1.12rem}
-.drawer .lt-sub{font-size:.58rem}
+.drawer .logo-img{height:52px;max-width:224px}
 .drawer-close{background:none;border:1px solid rgba(255,255,255,.3);border-radius:9px;width:46px;height:46px;color:#fff;display:flex;align-items:center;justify-content:center}
 .drawer nav{display:flex;flex-direction:column}
 .drawer nav a{color:#e7eef7;font-family:var(--font-h);font-weight:700;font-size:1.35rem;padding:15px 4px;border-bottom:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;align-items:center}
@@ -312,9 +310,7 @@ body.locked{overflow:hidden}
 .footer::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--orange),var(--sky))}
 .f-grid4{display:grid;grid-template-columns:1.35fr .7fr .9fr 1.05fr;gap:44px}
 .footer .logo-plate{margin-bottom:20px}
-.footer .logo-mark{height:52px}
-.footer .lt-top{font-size:1.16rem}
-.footer .lt-sub{font-size:.58rem}
+.footer .logo-img{height:58px;max-width:250px}
 .f-about p{font-size:.92rem;line-height:1.7}
 .f-tagline{margin-top:14px;font-style:italic;color:var(--orange-2);font-weight:600;font-size:.95rem}
 .f-h{font-family:var(--font-h);color:#fff;font-size:1rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:20px;position:relative;padding-bottom:12px}
@@ -372,31 +368,74 @@ body.locked{overflow:hidden}
   html{scroll-behavior:auto}
   .rv{opacity:1;transform:none}
 }
-/* ===== ULTRA BADA LOGO + TRANSPARENT BG ===== */
-:root{--hh:206px}
-.logo-plate{padding:0;gap:16px;background:transparent;box-shadow:none}
-.logo-plate:has(.logo-img){background:transparent;box-shadow:none}
-.logo-img{height:112px;max-width:440px;filter:drop-shadow(0 2px 12px rgba(255,255,255,.28)) drop-shadow(0 1px 3px rgba(0,0,0,.45))}
-.logo-mark{height:110px}
-.lt-top{font-size:2.05rem}
-.lt-sub{font-size:.92rem}
-@media(max-width:1330px){:root{--hh:180px}.logo-mark{height:92px}.logo-img{height:92px;max-width:370px}.lt-top{font-size:1.72rem}.lt-sub{font-size:.78rem}.nav a{padding:8px 8px}}
-@media(max-width:1240px){.nav a{font-size:.85rem;padding:7px 6px}.nav .btn{padding:10px 14px;margin-left:6px;font-size:.85rem}}
-@media(max-width:1000px){:root{--hh:158px}.logo-mark{height:82px}.logo-img{height:82px;max-width:330px}.lt-top{font-size:1.55rem}.lt-sub{font-size:.7rem}}
-@media(max-width:560px){:root{--hh:118px}.logo-plate{gap:10px}.logo-mark{height:64px}.logo-img{height:64px;max-width:240px}.lt-top{font-size:1.22rem}.lt-sub{font-size:.6rem}}
-@media(max-width:380px){:root{--hh:106px}.logo-mark{height:56px}.logo-img{height:56px;max-width:205px}.lt-top{font-size:1.08rem}.lt-sub{font-size:.54rem}}
-.drawer .logo-mark{height:74px}.drawer .logo-img{height:74px;max-width:280px}.drawer .lt-top{font-size:1.42rem}.drawer .lt-sub{font-size:.66rem}
-.footer .logo-mark{height:84px}.footer .logo-img{height:84px;max-width:310px}.footer .lt-top{font-size:1.5rem}.footer .lt-sub{font-size:.68rem}
 </style>
 </head>
 <body>
 
+<!-- ==========================================================
+     YOUR ORIGINAL LOGO FILE GOES IN THIS FOLDER:
+     Save your logo as  logo.png  (or logo.jpg / logo.webp)
+     next to this index.html — it is detected automatically
+     and shown in the header, mobile menu, footer and favicon.
+========================================================== -->
+
 <a class="skip" href="#main">Skip to main content</a>
+
+<script>
+/* ===== ORIGINAL COMPANY LOGO LOADER — SKYFREIGHTOR LOGESTIC PVT LTD =====
+   The page displays your ORIGINAL logo file. No generated or alternative
+   logo is used anywhere. Place your logo file in this same folder:
+
+       logo.png      (recommended)
+       logo.jpg / logo.jpeg / logo.webp / logo.svg
+       assets/logo.png · images/logo.png · img/logo.png
+
+   The first file found is displayed automatically in the header,
+   mobile menu, footer, and as the browser favicon — with the original
+   aspect ratio preserved (never stretched, never cropped).
+   If your file has a different name, set it here:                        */
+var LOGO_SRC = ''; /* e.g. 'my-logo-final.jpg' or 'assets/logo.png' — leave '' for auto-detect */
+
+var LOGO_CANDIDATES = ['logo.png','logo.jpg','logo.jpeg','logo.webp','logo.svg','logo.PNG','logo.JPG','assets/logo.png','images/logo.png','img/logo.png','assets/logo.jpg','images/logo.jpg'];
+
+function applyLogo(src){
+  document.querySelectorAll('.logo-slot').forEach(function(slot){
+    var cur = slot.querySelector('img.logo-img');
+    if(cur && cur.getAttribute('src') === src) return; /* already showing */
+    slot.innerHTML = '<img class="logo-img" src="' + src + '" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo">';
+  });
+  var fav = document.querySelector('link[rel="icon"]');
+  if(fav) fav.href = src;
+}
+/* Temporary state ONLY while no logo file exists in the folder:
+   the plain company name is shown (never a generated logo).
+   It is replaced by your exact logo file automatically. */
+function logoMissing(img){
+  var slot = img.closest('.logo-slot');
+  if(!slot || slot.dataset.textFb) return;
+  slot.dataset.textFb = '1';
+  slot.innerHTML = '<span class="logo-text" role="img" aria-label="SKYFREIGHTOR LOGESTIC PVT LTD">' +
+    '<span class="lt-top"><span class="lt-sky">SKY</span> FREIGHTOR</span>' +
+    '<span class="lt-sub">LOGESTIC (PVT) LTD</span></span>';
+}
+(function findLogo(){
+  if(LOGO_SRC){ applyLogo(LOGO_SRC); return; }
+  var i = 0;
+  (function tryNext(){
+    if(i >= LOGO_CANDIDATES.length) return;
+    var name = LOGO_CANDIDATES[i];
+    var probe = new Image();
+    probe.onload  = function(){ applyLogo(name); };
+    probe.onerror = function(){ i++; tryNext(); };
+    probe.src = name + '?logo=1';
+  })();
+})();
+</script>
 
 <!-- ===== Inline icon sprite ===== -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
   <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2.5 11 13"/><path d="M21.5 2.5 15 21.5l-4-8.5-8.5-4 19-6.5Z"/></symbol>
-  <symbol id="i-ship" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.5 12 12l8 2.5-1.8 4H5.8L4 14.5Z"/><path d="M8 12V8h8v4"/><path d="M10 8V5h4v3"/><path d="M2.5 21c1.2-1 2.3-1 3.5 0s2.3 1 3.5 0 2.3 1 3.5 0 2.3 1 3.5 0 2.3-1 3.5 0"/></symbol>
+  <symbol id="i-ship" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.5 12 12l8 2.5-1.8 4H5.8L4 14.5Z"/><path d="M8 12V8h8v4"/><path d="M10 8V5h4v3"/><path d="M2.5 21c1.2-1 2.3-1 3.5 0s2.3 1 3.5 0 2.3-1 3.5 0 2.3 1 3.5 0 2.3-1 3.5 0"/></symbol>
   <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 7.5H14V17H1.5z"/><path d="M14 10.5h4.2l3.3 3.3V17H14"/><circle cx="6" cy="18.7" r="1.8"/><circle cx="17.3" cy="18.7" r="1.8"/></symbol>
   <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8.5 4.7v8.6L12 21l-8.5-4.7V7.7L12 3Z"/><path d="M3.5 7.7 12 12.4l8.5-4.7"/><path d="M12 12.4V21"/></symbol>
   <symbol id="i-boxes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5h7v-6h-7v6Z"/><path d="M10.5 14.5h10v-8h-10v8Z"/><path d="M14 6.5v-3h4v3"/></symbol>
@@ -425,53 +464,6 @@ body.locked{overflow:hidden}
   <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></symbol>
 </svg>
 
-<!-- =====================================================================
-     BRAND EMBLEM — refined to match the attached SKYFREIGHTOR logo:
-     navy globe with white land swirls, blue jet with red motion streaks
-     flying across, container ship with red/white containers and white
-     bridge, and the blue serif SFL mark with underline strokes.
-     Placed to the LEFT of the wordmark in header, mobile menu, footer.
-     When your original logo.png is placed next to this page, the whole
-     lockup is replaced by your exact original file automatically.
-====================================================================== -->
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
-  <defs>
-    <linearGradient id="emGlobe" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c5a9e"/><stop offset="1" stop-color="#0a2c60"/></linearGradient>
-    <linearGradient id="emHull" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5abcec"/><stop offset="1" stop-color="#11519b"/></linearGradient>
-    <linearGradient id="emPlane" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#135ea8"/><stop offset="1" stop-color="#41b7ec"/></linearGradient>
-    <linearGradient id="emSfl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#55baea"/><stop offset="1" stop-color="#1462ad"/></linearGradient>
-  </defs>
-  <symbol id="logoMark" viewBox="0 0 190 160">
-    <!-- Globe -->
-    <circle cx="62" cy="50" r="40" fill="url(#emGlobe)"/>
-    <path d="M22 42 C26 26 42 15 60 17 C51 23 45 29 38 34 C31 39 25 43 22 42 Z" fill="#ffffff"/>
-    <path d="M84 30 C95 32 101 41 98 49 C88 49 81 40 84 30 Z" fill="#ffffff" opacity=".92"/>
-    <path d="M25 66 C30 59 41 59 46 65 C40 72 28 72 25 66 Z" fill="#ffffff" opacity=".85"/>
-    <!-- Red motion streaks above the jet -->
-    <path d="M66 24 C88 15 114 12 132 14" stroke="#e8442c" stroke-width="3.2" fill="none" stroke-linecap="round"/>
-    <path d="M78 15 C96 8 116 6 130 8" stroke="#f26b53" stroke-width="2.6" fill="none" stroke-linecap="round" opacity=".8"/>
-    <!-- Jet sweeping to the right -->
-    <path d="M44 56 L30 28 L44 33 L58 51 Z" fill="#2ba9e0"/>
-    <path d="M42 56 C74 44 112 36 148 37 C157 37.4 159 41 153 44.5 C122 53 82 59 50 60 C43 60 39 58.5 42 56 Z" fill="url(#emPlane)"/>
-    <path d="M96 45 L66 68 L82 69 L108 49 Z" fill="#1668b3"/>
-    <rect x="70" y="52" width="10" height="6" rx="3" fill="#e8442c"/>
-    <rect x="86" y="48" width="10" height="6" rx="3" fill="#e8442c"/>
-    <!-- Container ship, bow left -->
-    <path d="M20 112 C30 100 46 93 64 92 L150 92 C163 94 169 100 167 107 C164 116 150 121 131 122 L64 122 C48 121 31 118 20 112 Z" fill="url(#emHull)"/>
-    <rect x="62" y="79" width="14" height="10" fill="#e8442c"/>
-    <rect x="78" y="79" width="14" height="10" fill="#f7fafc" stroke="#b9cfe6" stroke-width=".8"/>
-    <rect x="94" y="79" width="14" height="10" fill="#e8442c"/>
-    <rect x="110" y="79" width="14" height="10" fill="#dbe7f3" stroke="#b9cfe6" stroke-width=".8"/>
-    <path d="M128 68 c0-5 4-9 9-9 h10 c5 0 9 4 9 9 v23 h-28 Z" fill="#ffffff" stroke="#9db6d4" stroke-width="1"/>
-    <rect x="132" y="67" width="19" height="4.5" rx="2" fill="#2ba9e0" opacity=".75"/>
-    <path d="M30 128 H162" stroke="#0b2f63" stroke-width="2.4" stroke-linecap="round" opacity=".5"/>
-    <!-- SFL + underline strokes -->
-    <text x="86" y="146" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-weight="700" font-size="30" fill="url(#emSfl)">SFL</text>
-    <path d="M28 152 H150" stroke="#8fb3d9" stroke-width="3" stroke-linecap="round"/>
-    <path d="M40 157 H138" stroke="#b7cbe2" stroke-width="2.4" stroke-linecap="round"/>
-  </symbol>
-</svg>
-
 <!-- ================= HEADER ================= -->
 <header class="header" id="header">
   <div class="topbar">
@@ -484,13 +476,9 @@ body.locked{overflow:hidden}
   </div>
   <div class="navbar">
     <div class="container">
-      <!-- Logo lockup: emblem LEFT of the wordmark -->
+      <!-- Original company logo — loaded from logo.png in this folder -->
       <a href="#home" class="logo-plate logo-slot" aria-label="SKYFREIGHTOR LOGESTIC PVT LTD — Home">
-        <svg class="logo-mark" viewBox="0 0 190 160" aria-hidden="true"><use href="#logoMark"/></svg>
-        <span class="logo-text">
-          <span class="lt-top"><span class="lt-sky">SKY</span> FREIGHTOR</span>
-          <span class="lt-sub">LOGESTIC (PVT) LTD</span>
-        </span>
+        <img class="logo-img" src="logo.png" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo" onerror="logoMissing(this)">
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#home" class="active">Home</a>
@@ -510,11 +498,7 @@ body.locked{overflow:hidden}
 <div class="drawer" id="drawer" aria-hidden="true">
   <div class="drawer-top">
     <span class="logo-plate logo-slot">
-      <svg class="logo-mark" viewBox="0 0 190 160" aria-hidden="true"><use href="#logoMark"/></svg>
-      <span class="logo-text">
-        <span class="lt-top"><span class="lt-sky">SKY</span> FREIGHTOR</span>
-        <span class="lt-sub">LOGESTIC (PVT) LTD</span>
-      </span>
+      <img class="logo-img" src="logo.png" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo" onerror="logoMissing(this)">
     </span>
     <button class="drawer-close" id="drawerClose" aria-label="Close menu"><svg><use href="#i-x"/></svg></button>
   </div>
@@ -675,11 +659,6 @@ body.locked{overflow:hidden}
       </article>
 
       <article class="svc-card rv" style="--d:.12s">
-        <figure class="media"><img src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Freight trucks moving cargo in transit along a highway corridor" loading="lazy" data-fb-label="Transit Cargo" data-fb-icon="i-route" onerror="imgFallback(this)"></figure>
-        <div class="svc-body"><h3>Transit Cargo</h3><p>Coordination of cargo moving in transit through regional trade corridors — bonded documentation, carrier liaison, and supervised movement from port of discharge to the final destination.</p><div class="svc-foot"><button class="link-more" data-svc="transit">Learn More <svg><use href="#i-arrow"/></svg></button></div></div>
-      </article>
-
-      <article class="svc-card rv">
         <figure class="media"><img src="https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?auto=format&fit=crop&w=1000&q=75" alt="Packed shipments and parcels prepared for delivery at a customer location" loading="lazy" data-fb-label="Door-to-Door Shipping" data-fb-icon="i-boxes" onerror="imgFallback(this)"></figure>
         <div class="svc-body"><h3>Door-to-Door Shipping</h3><p>One booking covers everything: pickup at origin, international movement, clearance, and final delivery at the consignee's door — worldwide.</p><div class="svc-foot"><button class="link-more" data-svc="door">Learn More <svg><use href="#i-arrow"/></svg></button></div></div>
       </article>
@@ -831,7 +810,7 @@ body.locked{overflow:hidden}
                 <option>Less than Container Load (LCL)</option><option>Customs Clearance</option>
                 <option>Warehousing &amp; Storage</option><option>Cargo Handling</option>
                 <option>Distribution Services</option><option>Import &amp; Export Logistics</option>
-                <option>Transit Cargo</option><option>Door-to-Door Shipping</option><option>Other</option>
+                <option>Door-to-Door Shipping</option><option>Other</option>
               </select><span class="err">Please select a service.</span></div>
             <div class="field"><label for="qCargo">Cargo Type <b>*</b></label>
               <select id="qCargo" name="cargo" required>
@@ -902,7 +881,7 @@ body.locked{overflow:hidden}
                 <option>Less than Container Load (LCL)</option><option>Customs Clearance</option>
                 <option>Warehousing &amp; Storage</option><option>Cargo Handling</option>
                 <option>Distribution Services</option><option>Import &amp; Export Logistics</option>
-                <option>Transit Cargo</option><option>Door-to-Door Shipping</option><option>General Inquiry</option>
+                <option>Door-to-Door Shipping</option><option>General Inquiry</option>
               </select></div>
             <div class="field f-full"><label for="cMsg">Message <b>*</b></label><textarea id="cMsg" name="message" required placeholder="How can we help?"></textarea><span class="err">Please write a short message.</span></div>
             <div class="f-full"><button type="submit" class="btn btn-primary" style="width:100%">Submit Inquiry <svg><use href="#i-arrow"/></svg></button></div>
@@ -929,13 +908,9 @@ body.locked{overflow:hidden}
   <div class="container f-grid4">
     <div class="f-about">
       <span class="logo-plate logo-slot">
-        <svg class="logo-mark" viewBox="0 0 190 160" aria-hidden="true"><use href="#logoMark"/></svg>
-        <span class="logo-text">
-          <span class="lt-top"><span class="lt-sky">SKY</span> FREIGHTOR</span>
-          <span class="lt-sub">LOGESTIC (PVT) LTD</span>
-        </span>
+        <img class="logo-img" src="logo.png" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo" onerror="logoMissing(this)">
       </span>
-      <p>SKYFREIGHTOR LOGESTIC PVT LTD is an international freight forwarding and logistics company providing air, sea, and road freight, transit cargo, customs clearance, warehousing, distribution, import &amp; export support, and door-to-door delivery worldwide — coordinated from Karachi, Pakistan.</p>
+      <p>SKYFREIGHTOR LOGESTIC PVT LTD is an international freight forwarding and logistics company providing air, sea, and road freight, customs clearance, warehousing, distribution, import &amp; export support, and door-to-door delivery worldwide — coordinated from Karachi, Pakistan.</p>
       <p class="f-tagline">"We are Your Best Business Partner."</p>
     </div>
     <div>
@@ -959,7 +934,6 @@ body.locked{overflow:hidden}
         <li><a href="#services"><svg><use href="#i-arrow"/></svg>Cargo Freight Forwarding</a></li>
         <li><a href="#services"><svg><use href="#i-arrow"/></svg>FCL &amp; LCL</a></li>
         <li><a href="#services"><svg><use href="#i-arrow"/></svg>Customs Clearing</a></li>
-        <li><a href="#services"><svg><use href="#i-arrow"/></svg>Transit Cargo</a></li>
         <li><a href="#services"><svg><use href="#i-arrow"/></svg>Warehousing &amp; Distribution</a></li>
         <li><a href="#services"><svg><use href="#i-arrow"/></svg>Door-to-Door Delivery Worldwide</a></li>
       </ul>
@@ -1004,7 +978,7 @@ body.locked{overflow:hidden}
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"SKYFREIGHTOR LOGESTIC PVT LTD",
-"description":"International freight forwarding and logistics company: air, sea and road freight, transit cargo, FCL & LCL, customs clearance, warehousing, distribution, import & export and door-to-door delivery worldwide.",
+"description":"International freight forwarding and logistics company: air, sea and road freight, FCL & LCL, customs clearance, warehousing, distribution, import & export and door-to-door delivery worldwide.",
 "email":"info@skyfreightorlogestic.com","telephone":"+92-21-35842299","url":"https://www.skyfreightorlogestic.com",
 "address":{"@type":"PostalAddress","streetAddress":"Plot No. 3C, 3rd Street, 2nd Floor, Khalid Commercial, DHA Phase 7 (Ext)","addressLocality":"Karachi","addressCountry":"PK"},
 "employee":{"@type":"Person","name":"Sajida Abbasi","jobTitle":"Executive Director"}}
@@ -1017,35 +991,9 @@ body.locked{overflow:hidden}
 'use strict';
 
 /* ---------- Configuration ---------- */
-var LOGO_SRC = "logo.png"; // Optional: set to your exact logo filename, e.g. 'sky-logo.jpg'. Leave '' to auto-detect logo.png / logo.jpg / logo.webp etc. in this folder.
 const FORM_ENDPOINT = ''; // <-- Paste your form handler URL here (e.g. https://formspree.io/f/xxxx) to receive submissions directly.
 const EMAIL_TO = 'info@skyfreightorlogestic.com';
 const WA_NUMBER = '923266662299';
-
-/* ---------- Original logo file auto-upgrade ----------
-   If your original logo file exists in this folder, it replaces
-   the built-in brand lockup everywhere automatically.            */
-var LOGO_CANDIDATES = ['logo.png','logo.jpg','logo.jpeg','logo.webp','logo.PNG','logo.JPG','assets/logo.png','images/logo.png','img/logo.png'];
-function applyLogo(src){
-  document.querySelectorAll('.logo-slot').forEach(function(slot){
-    if(slot.dataset.logoApplied) return;
-    slot.dataset.logoApplied = '1';
-    slot.innerHTML = '<img class="logo-img" src="' + src + '" alt="SKYFREIGHTOR LOGESTIC PVT LTD logo">';
-  });
-  var fav = document.querySelector('link[rel="icon"]');
-  if(fav) fav.href = src;
-}
-(function findLogo(){
-  if(LOGO_SRC){ applyLogo(LOGO_SRC); return; }
-  var i = 0;
-  (function tryNext(){
-    if(i >= LOGO_CANDIDATES.length) return;
-    var probe = new Image();
-    probe.onload  = function(){ applyLogo(LOGO_CANDIDATES[i]); };
-    probe.onerror = function(){ i++; tryNext(); };
-    probe.src = LOGO_CANDIDATES[i] + '?logo=1';
-  })();
-})();
 
 /* ---------- Image fallback: elegant branded panel, never a broken icon ---------- */
 function imgFallback(img){
@@ -1146,9 +1094,6 @@ const SERVICES = {
   importexport:{t:'Import & Export Logistics',ic:'i-globe',l:'Complete two-way trade support done right the first time.',
     p:['Importing and exporting each carry their own documentation, sequencing, and compliance demands. We handle both directions so trade flows smoothly.'],
     b:['Import and export documentation and coordination','Compliance checks before cargo moves','Supplier and consignee liaison across time zones','End-to-end visibility from purchase order to delivery']},
-  transit:{t:'Transit Cargo',ic:'i-route',l:'Careful coordination of cargo moving in transit through regional trade corridors.',
-    p:['Transit cargo has its own rules — bonded documentation, corridor requirements, and strict movement conditions. We manage these details so goods passing through to a final destination stay compliant and on schedule.'],
-    b:['Transit documentation and bonded movement coordination','Liaison with carriers and authorities along the corridor','Supervised handling from port of discharge to border or final destination','Clear guidance on requirements before cargo is booked']},
   door:{t:'Door-to-Door Shipping',ic:'i-boxes',l:"One booking that covers the entire journey to the consignee's door.",
     p:['Door-to-door means you make one call and we handle the chain: pickup, international freight, clearance, and final delivery.'],
     b:["Pickup at origin, international freight, clearance, and final delivery",'Worldwide delivery through established partner networks','Simplified coordination with a single responsible team','Ideal for e-commerce, samples, personal effects, and commercial cargo']}
