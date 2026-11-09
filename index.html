@@ -372,20 +372,21 @@ body.locked{overflow:hidden}
   html{scroll-behavior:auto}
   .rv{opacity:1;transform:none}
 }
-/* ===== BADA LOGO ===== */
-:root{--hh:174px}
-.logo-plate{padding:10px 18px}
-.logo-mark{height:88px}
-.lt-top{font-size:1.75rem}
-.lt-sub{font-size:.82rem}
-.logo-img{height:88px;max-width:360px}
-@media(max-width:1330px){:root{--hh:162px}.logo-mark{height:76px}.lt-top{font-size:1.55rem}.lt-sub{font-size:.72rem}.logo-img{height:76px;max-width:330px}.nav a{padding:8px 8px}}
-@media(max-width:1240px){.nav a{font-size:.86rem;padding:7px 6px}.nav .btn{padding:10px 14px;margin-left:6px;font-size:.86rem}}
-@media(max-width:1000px){:root{--hh:144px}.logo-mark{height:68px}.lt-top{font-size:1.45rem}.lt-sub{font-size:.66rem}.logo-img{height:68px;max-width:300px}}
-@media(max-width:560px){:root{--hh:102px}.logo-mark{height:60px}.lt-top{font-size:1.28rem}.lt-sub{font-size:.6rem}.logo-img{height:60px;max-width:230px}}
-@media(max-width:380px){:root{--hh:94px}.logo-mark{height:52px}.lt-top{font-size:1.12rem}.lt-sub{font-size:.54rem}.logo-img{height:52px;max-width:200px}}
-.drawer .logo-mark{height:64px}.drawer .lt-top{font-size:1.35rem}.drawer .lt-sub{font-size:.62rem}.drawer .logo-img{height:64px;max-width:260px}
-.footer .logo-mark{height:70px}.footer .lt-top{font-size:1.4rem}.footer .lt-sub{font-size:.64rem}.footer .logo-img{height:70px;max-width:280px}     
+/* ===== ULTRA BADA LOGO + TRANSPARENT BG ===== */
+:root{--hh:206px}
+.logo-plate{padding:0;gap:16px;background:transparent;box-shadow:none}
+.logo-plate:has(.logo-img){background:transparent;box-shadow:none}
+.logo-img{height:112px;max-width:440px;filter:drop-shadow(0 2px 12px rgba(255,255,255,.28)) drop-shadow(0 1px 3px rgba(0,0,0,.45))}
+.logo-mark{height:110px}
+.lt-top{font-size:2.05rem}
+.lt-sub{font-size:.92rem}
+@media(max-width:1330px){:root{--hh:180px}.logo-mark{height:92px}.logo-img{height:92px;max-width:370px}.lt-top{font-size:1.72rem}.lt-sub{font-size:.78rem}.nav a{padding:8px 8px}}
+@media(max-width:1240px){.nav a{font-size:.85rem;padding:7px 6px}.nav .btn{padding:10px 14px;margin-left:6px;font-size:.85rem}}
+@media(max-width:1000px){:root{--hh:158px}.logo-mark{height:82px}.logo-img{height:82px;max-width:330px}.lt-top{font-size:1.55rem}.lt-sub{font-size:.7rem}}
+@media(max-width:560px){:root{--hh:118px}.logo-plate{gap:10px}.logo-mark{height:64px}.logo-img{height:64px;max-width:240px}.lt-top{font-size:1.22rem}.lt-sub{font-size:.6rem}}
+@media(max-width:380px){:root{--hh:106px}.logo-mark{height:56px}.logo-img{height:56px;max-width:205px}.lt-top{font-size:1.08rem}.lt-sub{font-size:.54rem}}
+.drawer .logo-mark{height:74px}.drawer .logo-img{height:74px;max-width:280px}.drawer .lt-top{font-size:1.42rem}.drawer .lt-sub{font-size:.66rem}
+.footer .logo-mark{height:84px}.footer .logo-img{height:84px;max-width:310px}.footer .lt-top{font-size:1.5rem}.footer .lt-sub{font-size:.68rem}
 </style>
 </head>
 <body>
